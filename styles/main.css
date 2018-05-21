@@ -1,10 +1,12 @@
 @import url("navigatie.css");
+
 *{
-	font-family: "Open sans";
+ 	font-family: 'Montserrat', sans-serif;
+
 }
 
 body {
-	background-color: #F9F8DE;
+	background-color: #FFFFFF;
 }
 
 .intro{
@@ -77,7 +79,7 @@ nav ul li:hover > ul {
 }
 
 nav ul {
-	background: black; 
+	background: #85d4b7; 
 	margin-top: 0px;
 	margin-bottom: 0px;
 	list-style: none;
@@ -105,7 +107,7 @@ nav ul li a {
 }
 
 nav ul ul {
-	background: #5f6975; 
+	background: #85d4b7; 
 	padding: 0;
 	position: absolute; top: 100%;
 }
