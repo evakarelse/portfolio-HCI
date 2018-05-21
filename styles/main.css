@@ -1,0 +1,127 @@
+@import url("navigatie.css");
+*{
+	font-family: "Open sans";
+}
+
+body {
+	background-color: #F9F8DE;
+}
+
+.intro{
+	width: 100%;
+	margin: 0px;
+}
+
+.me{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+
+figure{
+	margin: 0px;
+}
+
+.info{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 20px;
+}
+
+p{
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+}
+
+h1, h2, h3{
+	display: flex;
+	justify-content: center;
+}
+
+iframe{
+	width: 700px;
+	height: 300px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+body{
+	margin: 0px;
+}
+
+body> header> nav> ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+nav{
+	background-color: black;
+}
+
+header nav ul li a{
+	color: white;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+		display: block;
+}
+
+nav ul {
+	background: black; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover {
+	background: #87cefa;
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+	
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: #757575; 
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: #5f6975; 
+	padding: 0;
+	position: absolute; top: 100%;
+}
+
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+		
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+			
+nav ul ul li a:hover {
+	background: #4b545f;
+}
